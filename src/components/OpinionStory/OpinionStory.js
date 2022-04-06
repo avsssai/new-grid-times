@@ -20,11 +20,6 @@ const Wrapper = styled.article`
 	color: var(--color-gray-900);
 	/* display: flex;
 	flex-direction: row-reverse; */
-
-	@media ${QUERIES.tabletOnly} {
-		float: revert;
-		margin-left: revert;
-	}
 `;
 
 const Avatar = styled.img`
@@ -35,6 +30,10 @@ const Avatar = styled.img`
 	object-fit: cover;
 	float: right;
 	margin-left: 16px;
+	@media ${QUERIES.tabletOnly} {
+		float: revert;
+		margin-left: revert;
+	}
 	/* align-self: center; */
 `;
 
