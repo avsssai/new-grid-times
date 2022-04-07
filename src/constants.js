@@ -26,17 +26,15 @@ export const COLORS = {
 };
 
 export const QUERIES = {
-	tabletAndUp: `@media(min-width: ${BREAKPOINTS.tabletMin / 16}rem)`,
-	laptopAndUp: `@media(min-width: ${BREAKPOINTS.laptopMin / 16}rem)`,
-	desktopAndUp: `@media(min-width: ${BREAKPOINTS.desktopMin / 16}rem)`,
-	tabletOnly: `@media(min-width: ${BREAKPOINTS.tabletMin / 16}rem and max-width: ${
-		BREAKPOINTS.laptopMin - 1 / 16
-	}rem)`,
+	tabletAndUp: `(min-width: ${BREAKPOINTS.tabletMin / 16}rem)`,
+	laptopAndUp: `(min-width: ${BREAKPOINTS.laptopMin / 16}rem)`,
+	desktopAndUp: `(min-width: ${BREAKPOINTS.desktopMin / 16}rem)`,
+	tabletOnly: `(min-width: ${BREAKPOINTS.tabletMin / 16}rem and max-width: ${BREAKPOINTS.laptopMin - 1 / 16}rem)`,
 };
 
 export const FAMILIES = {
 	serif: '"Crimson Pro", Georgia, serif',
 	sansSerif:
 		'"Helvetica Neue", Helvetica, "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", sans-serif',
-	logo: "Chomsky",
+	logo: '"Chomsky"',
 };

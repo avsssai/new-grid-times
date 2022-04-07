@@ -48,7 +48,7 @@ table {
 /* DESIGN TOKENS */
 html {
 
-    --color-primary: ${COLORS.white};
+    --color-white: ${COLORS.white};
     --color-offblack: ${COLORS.offblack};
     --color-gray-100: ${COLORS.gray[100]};
     --color-gray-300: ${COLORS.gray[300]};
@@ -61,6 +61,9 @@ html {
     --font-family-serif: ${FAMILIES.serif};
     --font-family-sans-serif: ${FAMILIES.sansSerif};
     --font-family-logo: ${FAMILIES.logo};
+    --font-weight-normal:400;
+    --font-weight-medius:550;
+    --font-weight-bold:700;
 }
 /* GLOBAL STYLES */
 *,
